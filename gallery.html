@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery page</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: gray;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </header>
+    <h1>Image gallery</h1>
+    <h2>Fruit images</h2>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Lobo_%28apple%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            alt="An apple" width="300px">
+        <figcaption>An apple</figcaption>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Cavendish_Banana_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            alt="A cavendish banana" width="300px">
+        <figcaption>A cavendish banana</figcaption>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Oranges_-_whole-halved-segment.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+            alt="An orange" width="300px">
+        <figcaption>An orange</figcaption>
+    </figure>
+</body>
+
+</html>
